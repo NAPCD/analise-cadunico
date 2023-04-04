@@ -35,7 +35,7 @@ server = server.app
 
 app.config.suppress_callback_exceptions=True
 
-server = app.server
+server = server.app
 
 # ====================================================
 # Layout

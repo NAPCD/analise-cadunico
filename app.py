@@ -31,11 +31,9 @@ app = Dash(__name__,
     title="Análise CADÚnico",
     meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}],
 )
-server = server.app
+server = app.server
 
 app.config.suppress_callback_exceptions=True
-
-server = server.app
 
 # ====================================================
 # Layout

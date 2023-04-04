@@ -7,4 +7,4 @@ dash_auth
 datetime==4.3
 plotly==5.9.0
 pyarrow==8.0.0
-pandas
+pandas==1.3.5

@@ -21,7 +21,7 @@ mapa_cores = {'Extrema pobreza':'#E84258', 'Pobreza':'#FD8060', 'Vulnerabilidade
 # Trazendo e tratando df
 # ====================================================
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] ='cadunico-382712-8e7d63e8b378.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] ='/etc/secrets/cadunico-382712-8e7d63e8b378.json'
 storage_client = storage.Client()
 bucket = storage_client.bucket('analise-cadunico')
 blob = bucket.blob('cadunico 28out2022.parquet')

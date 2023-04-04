@@ -8,3 +8,4 @@ datetime==4.3
 plotly==5.9.0
 pyarrow==8.0.0
 pandas==1.4.3
+google-cloud-storage

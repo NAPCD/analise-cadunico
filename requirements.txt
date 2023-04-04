@@ -3,5 +3,6 @@ dash-bootstrap-components==1.2.1
 dash-core-components==2.0.0
 dash-html-components==2.0.0
 dash==2.6.1
+dash_auth
 datetime==4.3
 plotly==5.9.0

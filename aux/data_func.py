@@ -27,9 +27,9 @@ bucket = storage_client.bucket('analise-cadunico')
 blob = bucket.blob('cadunico 28out2022.parquet')
 blob.download_to_filename('cadunico 28out2022.parquet')
 
-df = ('cadunico 28out2022.parquet')
+local_df = ('cadunico 28out2022.parquet')
 
-anos = list(pq.read_table(df, columns=['ano']).to_pandas()['ano'].unique())
+anos = list(pq.read_table(local_df, columns=['ano']).to_pandas()['ano'].unique())
 anos.sort()
 
 # ====================================================

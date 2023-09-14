@@ -108,7 +108,7 @@ python app.py
 
 - [Rubens Lopes](mailto:lps.rubens@gmail.com "e-mail")
 - [Cleyton Farias](mailto:cleytonfarias@outlook.com "e-mail")
-- [Luiza Lima](mailto:luiza.9718@gmail.com "e-mail")
+- [Mayres Pequeno](mayrespequeno@gmail.com "e-mail")
 
 
 ## Licença
